@@ -39,13 +39,13 @@ class _MyBottomBar extends State<MyBottomBar> {
               Icons.add_box_outlined,
               color: Color(0xff04253A),
             ),
-              title: Text("Demande",style: TextStyle(color: Color(0xff04253A)),),
+              label: "Demande",
             ),
             BottomNavigationBarItem(icon: Icon(
               Icons.preview_outlined,
               color: Color(0xff04253A),
             ),
-              title: Text('Mes Services',style: TextStyle(color: Color(0xff04253A))),
+              label: 'Mes Services',
             ),
 
           ],
